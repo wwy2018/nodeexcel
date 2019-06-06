@@ -23,13 +23,12 @@ f.SheetNames.map((item, index) => {
   if (!ch[keys[index]]) ch[keys[index]]={}
   let idx = 0
   for (let i in shet) {
-    let x = parseInt(idx/2)
     if (i.startsWith('A')) {
-      ch[keys[index]][sk[x]] = shet[i]['v']
+      ch[keys[index]][sk[idx]] = shet[i]['v']
     } else if (i.startsWith('B')) {
-      en[keys[index]][sk[x]] = shet[i]['v']
+      en[keys[index]][sk[idx]] = shet[i]['v']
+      idx++
     }
-    idx++
   }
 })
 fs.writeFile('en.json', JSON.stringify(en), {flag: 'w+'}, ()=>{})
