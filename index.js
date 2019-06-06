@@ -23,7 +23,7 @@ f.SheetNames.map((item, index) => {
   if (!ch[keys[index]]) ch[keys[index]]={}
   let idx = 0
   for (let i in shet) {
-    let x = parseInt(idx)
+    let x = parseInt(idx/2)
     if (i.startsWith('A')) {
       ch[keys[index]][sk[x]] = shet[i]['v']
     } else if (i.startsWith('B')) {

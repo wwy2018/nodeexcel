@@ -1,1 +1,57 @@
-{"Menu":{"menu":"扫码点餐","sold":"菜单","reselect":"订单","price":"已售n  （n 代表已销售的份数）","checkout":"选择规格","undefined":"清空购物车"},"Order":{"pickno":"堂食","paysuc":"取餐号","noorder":"购买时间","myorder":"支付成功","unit":"已退款","undefined":"菜品名1件商品、菜品名等2件商品"},"Placeorder":{"optional":"桌号","addcomment":"选填","payali":"备注","paying":"如有特殊要求，请告知商家，最多50字","reload":"总计","undefined":"客官，该店铺配置有些问题，无法进行交易（1242）"},"Orderdetail":{"pickno":"支付成功","view":"取餐号","comments":"关闭订单详情","buytime":"查看订单详情","payali":"总计","undefined":"支付宝支付"},"Noneali":{"scan":"欢迎光临本店","undefined":"请用支付宝客户端打开"}}
+{
+  "Menu": {
+    "scan": "扫码点餐",
+    "menu": "菜单",
+    "order": "订单",
+    "sold": "已售n  （n 代表已销售的份数）",
+    "choose": "选择规格",
+    "reselect": "重选规格",
+    "options": "规格",
+    "price": "单价",
+    "total": "总价",
+    "checkout": "选好了",
+    "empty": "清空购物车"
+  },
+  "Order": {
+    "eatin": "堂食",
+    "pickno": "取餐号",
+    "buytime": "购买时间",
+    "paysuc": "支付成功",
+    "refund": "已退款",
+    "noorder": "暂无订单",
+    "refresh": "订单多了往下拉-查看更多",
+    "myorder": "我的订单",
+    "nomore": "我的订单-没有更多了",
+    "unit": "菜品名1件商品、菜品名等2件商品"
+  },
+  "Placeorder": {
+    "tableno": "桌号",
+    "optional": "选填",
+    "comments": "备注",
+    "addcomment": "如有特殊要求，请告知商家，最多50字",
+    "total": "总计",
+    "payali": "支付宝支付",
+    "confirm": "确认下单",
+    "paying": "支付中...",
+    "alifail": "唤起支付宝失败，请稍后再试",
+    "reload": "暂时无法查询到订单，请稍后到我的订单中查看",
+    "error": "客官，该店铺配置有些问题，无法进行交易（1242）"
+  },
+  "Orderdetail": {
+    "paysuc": "支付成功",
+    "pickno": "取餐号",
+    "close": "关闭订单详情",
+    "view": "查看订单详情",
+    "total": "总计",
+    "comments": "备注",
+    "orderno": "订单编号",
+    "buytime": "购买时间",
+    "payway": "支付方式",
+    "payali": "支付宝支付"
+  },
+  "Noneali": {
+    "welcome": "欢迎光临本店",
+    "scan": "扫码点餐",
+    "aliapp": "请用支付宝客户端打开"
+  }
+}

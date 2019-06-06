@@ -1,1 +1,57 @@
-{"Menu":{"order":"QR code food ordering","choose":"Menu","options":"Order","total":"Sold dishes n","empty":"Choose options","undefined":"Empty cart"},"Order":{"buytime":"Eat in","refund":"Pickup number","refresh":"Purchase time","nomore":"Payment successful","undefined":"菜品名 1 unit,菜品名 2 units"},"Placeorder":{"comments":"Table number","total":"Optional ","confirm":"Comments","alifail":"Add comments about extra requirements, up to 50 characters","error":"Total","undefined":"Configuration error, cannot proceed."},"Orderdetail":{"close":"Payment successful","total":"Pickup number","orderno":"Close order details","payway":"View order details","undefined":"Pay with Alipay"},"Noneali":{"aliapp":"Welcome to our restaurant","undefined":"Please scan this code with your Alipay wallet "}}
+{
+  "Menu": {
+    "menu": "QR code food ordering",
+    "order": "Menu",
+    "sold": "Order",
+    "choose": "Sold dishes n",
+    "reselect": "Choose options",
+    "options": "Reselect options",
+    "price": "Options",
+    "total": "Price",
+    "checkout": "Total price",
+    "empty": "Checkout",
+    "undefined": "Empty cart"
+  },
+  "Order": {
+    "pickno": "Eat in",
+    "buytime": "Pickup number",
+    "paysuc": "Purchase time",
+    "refund": "Payment successful",
+    "noorder": "Already refunded",
+    "refresh": "No order",
+    "myorder": "More orders, please refresh ",
+    "nomore": "My Order ",
+    "unit": "My Order - No order now",
+    "undefined": "菜品名 1 unit,菜品名 2 units"
+  },
+  "Placeorder": {
+    "optional": "Table number",
+    "comments": "Optional ",
+    "addcomment": "Comments",
+    "total": "Add comments about extra requirements, up to 50 characters",
+    "payali": "Total",
+    "confirm": "Pay with Alipay",
+    "paying": "Confirm order",
+    "alifail": "Processing payment...",
+    "reload": "The connection to Alipay failed, please try again later",
+    "error": "The order is temporary unavailable, please reload the \"my order\" page",
+    "undefined": "Configuration error, cannot proceed."
+  },
+  "Orderdetail": {
+    "pickno": "Payment successful",
+    "close": "Pickup number",
+    "view": "Close order details",
+    "total": "View order details",
+    "comments": "Total",
+    "orderno": "Comments",
+    "buytime": "Order number",
+    "payway": "Purchase time",
+    "payali": "Payment method",
+    "undefined": "Pay with Alipay"
+  },
+  "Noneali": {
+    "scan": "Welcome to our restaurant",
+    "aliapp": "Scan the QR code to order",
+    "undefined": "Please scan this code with your Alipay wallet "
+  }
+}
