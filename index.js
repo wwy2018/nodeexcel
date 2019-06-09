@@ -1,20 +1,20 @@
 const xlsx=require('xlsx')
 const fs=require('fs')
 let f=xlsx.readFile('diancan.xlsx')
-let keys = ['Menu', 'Order', 'Placeorder', 'Orderdetail', 'Noneali']
+let keys = ['Index', 'Placeorder', 'Order', 'Qr', 'Manage']
 let en={}
 let ch={}
-let menukeys=['scan','menu','order','sold','choose','reselect','options','price','total','checkout','empty']
-let orderkeys=['eatin','pickno','buytime','paysuc','refund','noorder','refresh','myorder','nomore','unit']
-let placeorderkeys=['tableno','optional','comments','addcomment','total','payali','confirm','paying','alifail','reload','error']
-let orderdetailkeys=['paysuc','pickno','close','view','total','comments','orderno','buytime','payway','payali']
-let nonealikeys=['welcome','scan','aliapp']
+let indexkeys=['menu','order','soldmonth','option','price','total','checkout','empty','warn','confirm','replace','reconfirm','reconfirm1','ordertime','etc','needorder']
+let placeorderkeys=['comment','inform','total','confirm','waitpay','payfail']
+let orderkeys=['orderok','payok','orderno','remark','orderid','ordertime','payway','alipay']
+let pcqrkeys=['smart','qr','area','example','content','range','start','end','input','generate','reset','scanqr','areano','scanorder','qrpreview']
+let managekeys=['manage','upload','step1','download','read','warn','remind','drag','name','cate','img','upimg','price','spec','attr','status']
 let subkeys={
-  menukeys: menukeys,
-  orderkeys: orderkeys,
+  indexkeys: indexkeys,
   placeorderkeys: placeorderkeys,
-  orderdetailkeys: orderdetailkeys,
-  nonealikeys: nonealikeys
+  orderkeys: orderkeys,
+  pcqrkeys: pcqrkeys,
+  managekeys: managekeys
 }
 f.SheetNames.map((item, index) => {
   let shet = f.Sheets[item]
